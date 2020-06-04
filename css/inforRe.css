@@ -1,0 +1,71 @@
+/* 信息发布 */
+#infor {
+    height: 1225px;
+    background: url(../images/zhu1.jpg) repeat-y;
+    padding-top: 50px;
+    
+}
+
+#infor>div>div {
+    height: 1154px;
+    background: #ffffff;
+    
+}
+
+#infor h3 {
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+#infor .rele{
+    height: 96px;
+    border-bottom: 1px dashed #dbdbdb;
+    margin-top: 20px;
+}
+#infor .rele>div:first-child {
+    width: 76px;
+    height: 76px;
+    background: #f5f5f5;
+   margin-left: 30px;
+   
+}
+#infor .rele h1{
+    font-size: 22px;
+    height: 52px;
+    color: #cfcecf;
+    line-height: 52px;
+    text-align: center;
+}
+#infor .rele>div:first-child>p{
+    font-size: 12px;
+    color: #cfcecf;
+    text-align: center;
+}
+#infor .rele h4{
+    height: 44px;
+    
+    font-size :18px;
+    line-height: 44px;
+    color: #284140;
+    padding-left: 14px;
+    font-weight: normal;
+    
+}
+#infor .rele>div:nth-child(2) p{
+    color: #d1d1d1;
+    width: 1045px;
+    font-size: 12px;
+    padding-left: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#infor .rec{
+    text-align: center;
+    padding-top: 10px;
+}
+#infor .rec>a{
+    color:#cb0673;
+}

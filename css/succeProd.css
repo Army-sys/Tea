@@ -1,0 +1,62 @@
+/* 成功案例 */
+#succes{
+    height: 966px;
+    background: url(../images/zhu1.jpg)repeat-y;
+     padding-top: 52px;
+     
+}
+#succes .prod{
+    height:884px;
+    background: #ffffff; 
+    padding-right: 25px;
+    padding-left: 25px;   
+}
+#succes .prod li>img{
+     width: 340px;
+     height: 228px;
+     padding-top: 22px;
+}
+#succes .prod li{
+    width: 350px;
+    margin-right: 26px;
+}
+#succes h3{
+    font-size: 24px;
+    height: 98px;
+    line-height: 98px;
+    text-align: center;
+    font-weight: normal;
+}
+#succes .prod h4{
+    font-size: 16px;
+    line-height: 35px;
+}
+#succes .prod p:nth-child(3){
+     color: #8b9796;
+     height: 22px;
+     font-size: 10px;
+}
+#succes .prod p:nth-child(4){
+    color: #8b9796;
+     height: 22px;
+     font-size: 10px;
+     text-indent:2em ;
+}
+#succes .next{
+    width: 192px;
+    height: 12px;
+    margin: auto;
+    padding-top: 18px;
+    
+}
+#succes .next>a{
+    border: 1px solid #d3d3d3;
+}
+#succes .next>a:nth-child(1){
+    color: #c11400;
+    border:0;
+}
+#succes .next>a:hover{
+    color: #c11400;
+    border:0;
+}

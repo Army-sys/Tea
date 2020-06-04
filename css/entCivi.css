@@ -1,0 +1,47 @@
+/* 企业文化 */
+#civi{
+    background: url(../images/zhu1.jpg) repeat-y;
+    height: 720px;
+    padding-top: 50px;
+}
+#civi>div>div{
+    height: 640px;
+    background: #ffffff;
+}
+#civi h3{
+    width: 96px;
+    height: 50px;
+    font-size: 22px;
+    margin: auto;
+    padding-top: 40px;
+}
+#civi .contant>p{
+      width: 1148px;
+      height: 130px;
+      line-height: 35px;
+      margin: auto;
+      color: #4f5d60;
+      font-size: 12px;
+}
+#civi .contant>div{
+      height: 350px;
+      background: url(../images/qy.jpg) no-repeat;
+      background-size:1147px 350px;
+      margin-left:26px;
+      margin-top: 24px;
+}
+#civi .text{
+    color:#fefcfa;
+    padding-left: 37px;
+}
+#civi .text h4{
+    width: 90px;
+    font-size:22px;
+    height:36px;
+    padding-top: 40px;
+}
+#civi .text p{
+    width: 221px;
+    font-size: 12px;
+    height: 17px;
+}

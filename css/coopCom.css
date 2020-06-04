@@ -1,0 +1,81 @@
+/* 合作介绍 */
+#coop{
+    height: 1632px;
+    background: url(../images/zhu1.jpg) repeat-y;
+    padding-top: 46px;
+} 
+#coop>div>div{
+    height: 1520px;
+    background: #ffffff;
+}
+#coop h3{
+    font-size: 25px;
+    height: 49px;
+    text-align: center;
+    padding-top: 42px;
+}
+#coop p{
+    width: 1145px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 32px;
+    color: #886188;
+}
+#coop .contant{
+    padding-left: 22px;
+    padding-top: 40px;
+    width: 1126px;;
+}
+#coop .contant>.text1{
+    width: 156px;
+    height: 50px;
+    background:url(../images/psxm.jpg)no-repeat;
+    background-size: 56px 50px;
+    padding-left: 74px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+#coop .contant>.text2{
+    width: 156px;
+    height: 50px;
+    background:url(../images/tpzz.jpg)no-repeat;
+    background-size: 56px 50px;
+    padding-left: 74px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+#coop .contant>.text3{
+    width: 156px;
+    height: 50px;
+    background:url(../images/03.jpg)no-repeat;
+    background-size: 56px 50px;
+    padding-left: 74px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+#coop .contant>div:nth-child(2)>div>p{
+        color: #989898;
+        width: 573px;
+        padding-left: 70px;
+}
+#coop .contant .pic>img{
+    width: 380px;
+    height: 240px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+#coop .line{
+    margin-top: 40px; 
+}
+#coop .line>div{
+    height: 1px;
+    width: 1100px;
+    border: 1px dashed #b4b4b4;
+    margin:auto; 
+    
+}

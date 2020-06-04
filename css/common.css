@@ -1,0 +1,309 @@
+/* 版心 */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 版心最小距离 */
+.container-fluid{
+    min-width: 1200px;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float:right;
+}
+/* 清除浮动 */
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+/* 顶部 */
+#top{
+  height: 90px;
+  
+}
+#top img{
+  padding-right: 28px;
+  float: left;
+  margin-top: 13px;
+}
+#top>.logo>div:nth-child(1){
+  padding-top: 17px;
+}
+#top>.logo{
+    margin-top: 13px;
+}
+#top>.logo>div:nth-child(2){
+  padding-bottom: 31px;
+  font-size: 12px;
+}
+#top>div>div{
+  width: 113px;
+  border-left:1px solid #e6e6e6;
+  font-size: 16px;
+  color: #686767;
+  padding-left: 20px;
+}
+#top .nav li{
+  width: 132px;
+  height: 90px;
+  float: left;
+  font-size: 16px;
+  color: #686767;
+  text-align: center;
+  line-height: 90px;  
+}
+#top .nav .active{
+  background-color: #00ae69;
+  color: #fff5f6;
+}
+#top>.nav li:hover {
+   background-color: #00ae69;
+  color: #fff5f6;
+}
+#top .subnav{
+  position: relative;
+  z-index: 1;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.7s;
+}
+#top .subnav>li{
+  height: 60px;
+  background-color: #ffffff;
+  line-height: 60px;
+  /* height: 0;
+  overflow: hidden;
+  transition: height 0.5s; */
+}
+#top li:hover .subnav{
+  /* display: block; */
+  height:360px;  
+}
+/* 2-5页轮播图 */
+ #banner2{
+  background: url(../images/vynb.jpg) no-repeat;
+  height: 500px;
+  background-size: 100% 500px;
+  position: relative;
+}
+#banner2>div>div:first-child{
+  width: 450px;
+  height: 58px;
+  position:absolute;
+  right: 270px;
+  top: 180px;
+}
+#banner2 h2{
+  width: 410px;
+  height: 47px;
+  font-size: 24px;
+  font-family: "方正姚体";
+  float: left;
+}
+#banner2 p{
+  width: 420px;
+  height: 8px;
+  font-size: 8px;
+  float: right;
+  color: #676740;
+}
+#banner2>div>div:nth-child(2){
+  height: 62px;
+  background-color :#0c3311;
+  opacity: 0.7;
+  position: absolute;
+  right:0;
+  left:0;
+  bottom: 0;
+  padding-left: 130px;
+}
+#banner2>div>div:nth-child(2)>div{
+  line-height: 62px;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+  width: 301px;
+  border-right: 1px solid #607a6a;  
+  text-align: center;
+}
+#banner2 a{
+  color: #fffffd;
+} 
+#banner2 .active{
+  background: #00ae69;
+}
+#banner2>div>div:nth-child(2)>div:hover{
+    background: #00ae69;
+}
+/* 茶品分类轮播图 */
+#banner3{
+  background: url(../images/vynb.jpg) no-repeat;
+  height: 500px;
+  background-size: 100% 500px;
+  position: relative;
+}
+#banner3>div>div:first-child{
+  width: 450px;
+  height: 58px;
+  position:absolute;
+  right: 270px;
+  top: 180px;
+}
+#banner3 h2{
+  width: 410px;
+  height: 47px;
+  font-size: 24px;
+  font-family: "方正姚体";
+  float: left;
+}
+#banner3 p{
+  width: 420px;
+  height: 8px;
+  font-size: 8px;
+  float: right;
+  color: #676740;
+}
+#banner3>div>div:nth-child(2){
+  height: 62px;
+  background-color :#0c3311;
+  opacity: 0.7;
+  position: absolute;
+  right:0;
+  left:0;
+  bottom: 0;
+  padding-left: 130px;
+}
+#banner3>div>div:nth-child(2)>div{
+  line-height: 62px;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+  width: 195px;
+  border-right: 1px solid #607a6a;  
+  text-align: center;
+}
+#banner3 a{
+  color: #fffffd;
+} 
+#banner3 .active{
+  background: #00ae69;
+}
+#banner3>div>div:nth-child(2)>div:hover{
+    background: #00ae69;
+   
+}
+/* 页尾 */
+#footer{
+    background: url(../images/8cw9.jpg) no-repeat;
+    height: 58px;
+}
+#footer li{
+    float: left;
+    margin-left: 74px;
+    margin-right: 74px;
+    line-height: 58px;
+}
+#footer a{
+  color: #fffbff;
+}
+
+/* 页尾联系 */
+#foottel{
+  height: 230px;
+  background:#d7ece2;
+  border-bottom:1px solid #c7dcd2;
+}
+#foottel .l1{
+  padding-top: 32px;
+}
+#foottel .l1>h3{
+ width: 72px;
+ height: 36px;
+ font-size: 18px;
+
+}
+#foottel .l1>p{
+   width: 281;
+   height:25px;
+   font-size: 12px;
+  padding-right: 132px;
+  color: #4b5b63;
+
+}
+#foottel .l2>span{
+  height: 32px;
+  font-size: 16px;
+  display: block;
+  padding-top: 43px;
+  color: #4b5b63;
+}
+#foottel .l2>p{
+  width: 281;
+  height:25px;
+  font-size: 12px;
+ padding-right: 132px;
+ padding-left: 5px;
+ color: #4b5b63;
+}
+#foottel .l3>span{
+  height: 32px;
+  font-size: 16px;
+  display: block;
+  padding-top: 41px;
+  color: #4b5b63;
+}
+#foottel .l3>p{
+  width: 281;
+  height:25px;
+  font-size: 12px;
+ padding-right: 132px;
+ padding-left: 5px;
+ color: #4b5b63;
+}
+#foottel .l4>span{
+  height: 32px;
+  font-size: 16px;
+  display: block;
+  padding-top: 34px;
+  color: #4b5b63;
+}
+#foottel .l4>p{
+  width: 281;
+  height:23px;
+  font-size: 12px;
+ padding-left: 5px;
+ color: #4b5b63;
+}
+/* 二维码 */
+#foottel .code{
+  background:url(../images/erweima.png)no-repeat;
+  background-size:123px 126px ;
+  width: 123px;
+  height: 126px;
+  padding-top: 140px;
+  font-size: 12px;
+  margin-top: 26px;
+  text-align: center;
+}
+/* 版权 */
+#copyright{
+  background:#d7ece2;
+  height:68px;
+}
+#copyright>div>div{
+  width: 590px;
+  height: 14px;
+  color: #576468;
+  margin: auto;
+  padding-top: 22px;
+
+}

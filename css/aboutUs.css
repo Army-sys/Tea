@@ -1,0 +1,191 @@
+/* 轮播图 */
+#banner2{
+    background: url(../images/vynb.jpg) no-repeat;
+    height: 500px;
+    background-size: 100% 500px;
+    position: relative;
+}
+#banner2>div>div:first-child{
+    width: 450px;
+    height: 58px;
+    position:absolute;
+    right: 270px;
+    top: 180px;
+}
+#banner2 h2{
+    width: 410px;
+    height: 47px;
+    font-size: 24px;
+    font-family: "方正姚体";
+    float: left;
+}
+#banner2 p{
+    width: 420px;
+    height: 8px;
+    font-size: 8px;
+    float: right;
+    color: #676740;
+}
+#banner2>div>div:nth-child(2){
+    height: 62px;
+    background-color :#0c3311;
+    opacity: 0.7;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0;
+    padding-left: 130px;
+}
+#banner2>div>div:nth-child(2)>div{
+    line-height: 62px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    width: 301px;
+    border-right: 1px solid #607a6a;  
+    text-align: center;
+}
+#banner2 a{
+    color: #fffffd;
+} 
+#banner2>div>div:nth-child(2)>div:hover{
+    background: #00ae69;
+}
+/* 公司简介 */
+#brief{
+    height: 605px;
+    background: url(../images/zhu1.jpg) ;
+    padding-top: 110px;
+}
+#brief>div{
+    position: relative;
+}
+#brief>div>div{
+    background: url(../images/introduction_v668.jpg) no-repeat;
+    width: 566px;
+    height: 450px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 2;
+}
+#brief img{ 
+   width: 646px;
+    height: 460px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    float: right;
+}
+#brief>div>div{
+    padding-top: 94px;
+    padding-left: 24px;
+}
+#brief>div h3{
+    width: 100px;
+    height: 48px;
+    font-size: 24px;
+    float:left;
+}
+#brief>div h3>span{
+    color: #0aa86e;
+    display: block;
+    float:left;
+}
+#brief>div p{
+    width: 490px;
+    color: #5c5c5f;
+    font-size: 12px;
+    line-height: 28px;
+
+}#brief>div>div>div:nth-child(2){
+    height: 207px;
+    widows: 490px;
+}
+#envir {
+    background: url(../images/rezf.jpg) no-repeat;
+    height: 440px;
+    background-size: 100% 440px;
+}
+#envir>div{
+    position: relative;
+}
+#envir>div>div{
+    width: 358px;
+    height: 56px;
+    position: absolute;
+    left: 360px;
+    top: 198px;
+    color: #f9ffff;
+}
+#envir h3{
+    width: 340px;
+    height: 45px;
+    font-size: 26px;
+}
+#envir p{
+    width: 372px;
+    font-size: 10px;
+    height: 10px;
+}
+/* 简介图标 */
+#envirimg{
+    height: 260px;
+    background: url(../images/8cw9.jpg)no-repeat;
+    background-size: 100% 274px;
+}
+#envirimg ul{
+    padding-left: 60px;
+}
+#envirimg li{
+    width: 283px;
+    height: 200px;
+    padding-top: 60px;
+    text-align: center;
+}
+#envirimg p{
+    width: 196px;
+    line-height: 27px;
+    padding-top: 30px;
+    color: #f6fbfa;
+    text-align: center;
+    padding-left: 20px;
+}
+#envirimg .le2,#envirimg .le4{
+    background-color:#25a776;
+}
+/* 领导致辞 */
+#make{
+    height: 770px;
+    padding-top: 82px; 
+}
+#make>div>div:first-child{
+    height: 562px;
+    width: 475px;
+    background:url(../images/x.jpg)no-repeat;
+    background-size: 476px 562px; 
+    padding-left :36px;
+    
+}
+#make>div>div:nth-child(2)>div:first-child{
+    width: 281px;
+    height: 60px;
+    background:url(../images/speech.png) no-repeat;
+    margin-top: 20px; 
+    padding-top: 20px;
+}
+#make .speak h3{
+    width: 96px;
+    font-size: 24px;
+    line-height: 52px;
+}
+#make .speak span{
+    color: #00be65;
+}
+#make p{
+    width: 682px;
+    line-height: 28px;
+    color: #5c5558;
+    font-size:12px;
+}

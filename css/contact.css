@@ -1,0 +1,114 @@
+/* 联系我们 */
+#tact{
+    background: url(../images/zhu1.jpg) repeat-y;
+    height: 1452px;
+    padding-top: 50px;
+}
+#tact>div>div{
+    height: 1329px;
+    background-color: #ffffff;
+   
+}
+#tact .contant>h3{
+    width: 120px;
+    font-size: 30px;
+    height: 53px;
+    color:#1D2838;
+    margin: auto;
+    padding-top: 42px;
+
+}
+#tact .contant>p{
+    width: 1150px;
+    height: 90px;
+    margin: auto;
+    line-height: 34px;
+    color: #676b67;
+}
+/* 地图 */
+#allmap{
+    width: 1145px;
+    height: 322px;
+    border: 1px solid #000;
+    margin: auto;
+    margin-top: 26px;
+}
+/* 方式图标位置 */
+#tact .way{
+    padding-top: 40px;
+    height: 242px;
+    padding-left :60px;
+    padding-right: 60px;
+}
+#tact .way>.le{
+    width: 298px;
+    height: 100px;
+    border: 1px solid #eaeaea;
+    float: left;
+    line-height: 100px;
+    font-size: 12px;
+    color: #575757;
+    position:relative;
+}
+#tact .way img{
+    position: absolute;
+    left: 122px;
+    bottom: -22px;
+}
+#tact .way>div:nth-child(2){
+      margin-left: 90px;
+      margin-right: 90px;
+}
+#tact .way p{
+    height: 12px;
+    width: 264px;
+    margin: auto;
+    text-align: center;
+}
+/* 留言 */
+#tact .words{
+    width: 1111px;
+    height: 50px;
+    background:#00ae69;
+    margin: auto;
+    color: #fafffd;
+}
+#tact .words>div{
+    background: url(../images/msg.png) no-repeat;
+    background-size: 18px 16px;
+    background-position: 20px 18px;
+     width: 85px;
+     height: 12px;
+     padding-bottom: 20px;
+     padding-top :18px;
+     padding-left: 46px;
+}
+/* 提交 */
+#tact .submit{
+    padding-left: 119px;
+    padding-right: 119px;
+    padding-top: 38px;
+}
+#tact .submit>div>p{
+    height: 22px;
+    width: 25px;
+    color: #507f8e;
+    font-size: 12px;
+    padding-top: 52px;
+}
+#tact .submit>div>input{
+    width: 362px;
+    height: 40px;
+    background: #f5f5f5;
+    border: 0;
+    margin-right: 75px;
+    
+}
+#tact .submit>input{
+    width: 801px;
+    height: 40px;
+    float: left;
+    background: #00ae69;
+    border: 0;
+    margin-top: 14px;
+}

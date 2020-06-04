@@ -1,0 +1,45 @@
+/* 产品介绍 */
+#prad{
+    height: 790px;
+    padding-top: 40px;
+}
+#prad li{
+    width: 252px;
+    height: 258px;
+    text-align:center;
+    border: 1px solid #eeeeee;
+    margin-top: 15px;
+    
+}
+#prad p{
+    width: 204px;
+    height: 44px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 15px;
+    color: #958ca2;
+}
+#prad ul>li:not(:last-child){
+    margin-right: 56px;
+}
+#prad img{
+    width: 220px;
+    height: 172px;
+}
+#prad>div>div{
+    text-align:center;
+    margin-top: 66px;
+}
+#prad>div>div>a{
+    height: 20px;
+    border: 1px solid #6e6e6f;
+}
+#prad>div>div>a:nth-child(1){
+    color: #e80067;
+    border:0;
+}
+#prad>div>div>a:hover{
+    color: #e80067;
+    border:0;
+}

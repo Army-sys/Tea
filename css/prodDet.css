@@ -1,0 +1,70 @@
+/* 茶叶 醉津  */ 
+#proddet{
+    height: 1225px;
+    color: #6a6c73;
+}
+#proddet>div>h3{
+    height: 26px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 58px;
+}
+#proddet>div>p{
+    height: 20px;
+    font-size: 12px;
+    text-align:center;
+}
+#proddet>div>div:nth-child(3){
+    height: 22px;
+    border: 1x solid #e5e5e5;
+    background: #f5f5f5;
+    padding-left: 31px;
+    padding-top:8px;
+}
+#proddet>div>img{
+       width: 300px;
+       height: 300px;
+       display:block;
+       margin: 0 auto;
+       padding-top: 24px;
+}
+#proddet .photo{
+    width: 292px;
+    height: 62px;
+    position: relative;
+    margin:auto;
+    padding-bottom: 50px;
+}
+#proddet .photo>img{
+    width: 62px;
+    height: 62px;
+    padding-left: 25px;
+    margin-top: 14px;
+}
+#proddet .photo>div:nth-child(2){
+    width: 19px;
+    height: 62px;
+    background: url(../images/an1L.gif)no-repeat;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+#proddet .photo>div:nth-child(3){
+    width: 19px;
+    height: 62px;
+    background: url(../images/an1R.gif)no-repeat;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+#proddet .text{
+    height: 484px;
+    line-height: 22px;
+    font-size: 14px;
+}
+#proddet .text>.c1{
+    padding-top: 66px;
+}
+#proddet .text>div>a{
+    padding-right: 10px;
+}
